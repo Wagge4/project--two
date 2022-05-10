@@ -1,9 +1,11 @@
+/*Adds styling to the calculator itself*/
 .calculator{
     margin: 10vh auto 0 auto;
     box-shadow: 0px 0px 43px 17px #000000;
     max-width: 400px;
 }
 
+/*Adds styling to the output window*/
 .output{
     height: 70px;
     line-height: 70px;
@@ -12,6 +14,7 @@
     padding: 16px 8px;
 }
 
+/*Adds styling to all the buttons*/
 .buttons{
     border-bottom: 1px solid #999;
     border-left: 1px solid #999;
@@ -19,11 +22,13 @@
     display: grid;
 }
 
+/*Adds styling to all buttons where the parent is a div element*/
 .buttons > div{
     border-top: 1px solid #999;
     border-right: 1px solid #999;
 }
 
+/*Adds styling to all buttons apart from the equals button*/
 .button{
     border: 0.5px solid #999;
     line-height: 100px;
@@ -32,11 +37,13 @@
     cursor: pointer;
 }
 
+/*Adds colour to the equals button*/
 #equals{
     background-color: green;
     color: white; 
 }
 
+/*Adds styling when the user hovers over a button*/
 .button:hover{
     color: #ffffff;
     background-color: #666;
