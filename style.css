@@ -1,3 +1,43 @@
-body{
-    background-color: aqua;
+.calculator{
+    margin: 10vh auto 0 auto;
+    box-shadow: 0px 0px 43px 17px #000000;
+    max-width: 400px;
+}
+
+.output{
+    height: 70px;
+    line-height: 70px;
+    font-size: 25px;
+    text-align: right;
+    padding: 16px 8px;
+}
+
+.buttons{
+    border-bottom: 1px solid #999;
+    border-left: 1px solid #999;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    display: grid;
+}
+
+.buttons > div{
+    border-top: 1px solid #999;
+    border-right: 1px solid #999;
+}
+
+.button{
+    border: 0.5px solid #999;
+    line-height: 100px;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+#equals{
+    background-color: green;
+    color: white; 
+}
+
+.button:hover{
+    color: #ffffff;
+    background-color: #666;
 }
