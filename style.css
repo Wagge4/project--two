@@ -6,7 +6,7 @@
 }
 
 /*Adds styling to the output window*/
-.output{
+#output{
     height: 70px;
     line-height: 70px;
     font-size: 25px;
